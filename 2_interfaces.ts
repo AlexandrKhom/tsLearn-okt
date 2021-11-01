@@ -24,7 +24,8 @@ const rect2: Rect = {
 }
 rect2.color = '#000000'
 
-
+const rect3 = {} as Rect
+const rect4 = <Rect>{}
 
 
 
