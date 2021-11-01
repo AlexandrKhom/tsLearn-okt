@@ -18,8 +18,10 @@ let variable2: any = 42
 variable2 = 'alex'
 
 
-
-
+function sayName(name: string): void {
+    console.log(name)
+}
+sayName('ALEX')
 
 
 
