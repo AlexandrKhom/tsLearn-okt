@@ -17,13 +17,15 @@ variable = 'alex'
 let variable2: any = 42
 variable2 = 'alex'
 
-
+//func
 function sayName(name: string): void {
     console.log(name)
 }
 sayName('ALEX')
 
-
+//Type
+type Login = string
+const login: Login = 'admin'
 
 
 
